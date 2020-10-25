@@ -2,25 +2,39 @@
 body{
     font-family: 'Montserrat', sans-serif;
 }
+.logo{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    border-radius: 30px;
+}
+
 header{
-    background: #34BCC2;
+    background: #CD7D99;
     padding: 20px 0;
+    overflow: hidden;
+    width: 100%;
+    position: relative;
+    height: 170px;
 }
 .caixa{
-    position: relative;
-    width: 940px;
+     width: 940px;
     margin: 0 auto;
+    overflow: hidden;
+    
 }
 
 nav li{
-    display: inline;
-    
+    display: inline-block;
 }
     
 nav {
+    display: inline-block;
     position: absolute;
-    right: 20px;
-    top: 80px;
+    width: 50%;
+	margin-left: 40%;
+    font-size: 1em;
+    margin-top: 60px;
 }
 nav a{
     text-transform: uppercase;
@@ -34,10 +48,7 @@ nav a:hover{
     color: darkblue;
     text-decoration: underline;
 }
-nav{
-    top: 110px;
-    right: 0;
-}
+
 .produtos{
     width: 940px;
     margin: 0 auto;
@@ -78,7 +89,7 @@ nav{
 
 .rodape{
     text-align: center;
-    background-color: #003333;
+    background-color: #CD7D99;
     padding: 40px 0;
     
 }
@@ -87,12 +98,12 @@ nav{
     font-size: 13px;
     margin: 20px 0;
 }
+.logo-rodape{
+    border-radius: 30px;
+}
 
 /* Página de contatos*/
 
-main{
-   
-}
 
 form{
     margin: 40px 0;
@@ -146,7 +157,10 @@ td , th{
 
 .banner{
     width: 100%;
+    height: 500px;
+    
 }
+
 .texto-principal{
     text-align: center;
     font-size: 2em;
@@ -248,5 +262,4 @@ td , th{
     }
     .mapa p {
         font-size: 18px;    
-}
 }
